@@ -1,0 +1,78 @@
+$main-color: #936C99
+
+@mixin styles($main-color)
+  color: $main-color
+  /*border: 2px solid black*/
+
+@mixin borders()
+  border: 2px solid black
+  padding: 2px
+  
+
+
+
+.main_table
+  /*@include styles(blue)*/
+  @include borders()
+  backgroung-color: $main-color
+  font-family: Verdana
+  margin: 0
+  font-size: 14px
+  font-weight: bold
+  
+body 
+  font-family: Arial
+  background-color: $main-color
+  @include styles($main-color)  
+  .posts-table
+    @include borders()
+    @include styles($main-color)  
+    font-family: LucidaConsole 
+    tr
+      @include borders()
+      @include styles($main-color)  
+      font-family: LucidaConsole
+      th
+        @include borders()
+      td
+        @include borders()
+  .Submit
+    @include borders()
+    text-align: center
+    
+h1
+  @include styles($main-color)
+  font
+    size: 5em
+    family: LucidaConsole
+    weight: Bold
+
+
+.blog
+  @include styles($main-color)
+  font
+    size: 3em
+    family: LucidaConsole
+  text-align: center
+
+
+.field
+  @include styles($main-color)
+  font
+    size: 3em
+    family: LucidaConsole
+
+
+.notice
+  @include styles($main-color)
+  font
+    size: 3em
+    family: Arial
+
+b
+  @include styles($main-color)
+  font
+    size: 3em
+    family: Arial
+    
+    

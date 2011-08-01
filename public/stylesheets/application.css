@@ -1,0 +1,74 @@
+.main_table {
+  /*@include styles(blue) */
+  border: 2px solid black;
+  padding: 2px;
+  backgroung-color: #936c99;
+  font-family: Verdana;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold; }
+
+body {
+  font-family: Arial;
+  background-color: #936c99;
+  color: #936c99;
+  /*border: 2px solid black */ }
+  body .posts-table {
+    border: 2px solid black;
+    padding: 2px;
+    color: #936c99;
+    /*border: 2px solid black */
+    font-family: LucidaConsole; }
+    body .posts-table tr {
+      border: 2px solid black;
+      padding: 2px;
+      color: #936c99;
+      /*border: 2px solid black */
+      font-family: LucidaConsole; }
+      body .posts-table tr th {
+        border: 2px solid black;
+        padding: 2px; }
+      body .posts-table tr td {
+        border: 2px solid black;
+        padding: 2px; }
+  body .Submit {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center; }
+
+h1 {
+  color: #936c99;
+  /*border: 2px solid black */ }
+  h1 font {
+    size: 5em;
+    family: LucidaConsole;
+    weight: Bold; }
+
+.blog {
+  color: #936c99;
+  /*border: 2px solid black */
+  text-align: center; }
+  .blog font {
+    size: 3em;
+    family: LucidaConsole; }
+
+.field {
+  color: #936c99;
+  /*border: 2px solid black */ }
+  .field font {
+    size: 3em;
+    family: LucidaConsole; }
+
+.notice {
+  color: #936c99;
+  /*border: 2px solid black */ }
+  .notice font {
+    size: 3em;
+    family: Arial; }
+
+b {
+  color: #936c99;
+  /*border: 2px solid black */ }
+  b font {
+    size: 3em;
+    family: Arial; }
